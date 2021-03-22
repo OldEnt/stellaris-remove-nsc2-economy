@@ -1,0 +1,66 @@
+Removes elements of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=683230077]NSC2 (New Ship Classes 2)[/url] which affect economy.
+
+Starbase effects, modules, and buildings which affect available jobs, production etc. have been disabled. This includes modules producing consumer goods and alloys without the need of pop jobs (!!!).
+
+Components of Exploration Cruiser which produce resources have production set to 0 (alloys (!!!), engineering, physics, society, minerals, energy).
+
+AI weights adjusted.
+
+Following commands enable/disable everything:
+[b]event nsc2noeco.10[/b] - Restores all disabled features.
+[b]event nsc2noeco.20[/b] - Disables all features (default)
+
+List of flags for enabling/disabling individual features:
+[list][*]nsc2noeco_EXPLORATION_SLOT_PHYSICS_LAB_produces_enabled
+[*]nsc2noeco_EXPLORATION_SLOT_SOCIETY_LAB_produces_enabled
+[*]nsc2noeco_EXPLORATION_SLOT_ENGINEERING_LAB_produces_enabled
+[*]nsc2noeco_EXPLORATION_SLOT_MINING_FACILITY_produces_enabled
+[*]nsc2noeco_EXPLORATION_SLOT_SOLAR_ARRAY_produces_enabled
+[*]nsc2noeco_EXPLORATION_SLOT_ALLOY_REFINERY_produces_enabled
+[*]nsc2noeco_starbase_management_triggered_system_modifier_enabled
+[*]nsc2noeco_starbase_management_machine_triggered_system_modifier_enabled
+[*]nsc2noeco_starbase_management_hive_triggered_system_modifier_enabled
+[*]nsc2noeco_tech_mining_base_enabled
+[*]nsc2noeco_tech_power_station_enabled
+[*]nsc2noeco_farming_base_enabled
+[*]nsc2noeco_customs_office_enabled
+[*]nsc2noeco_solar_panel_01_enabled
+[*]nsc2noeco_solar_panel_02_enabled
+[*]nsc2noeco_solar_panel_03_enabled
+[*]nsc2noeco_solar_panel_04_enabled
+[*]nsc2noeco_mining_experts_enabled
+[*]nsc2noeco_orbital_physics_support_lab_enabled
+[*]nsc2noeco_orbital_society_support_lab_enabled
+[*]nsc2noeco_orbital_engineering_support_lab_enabled
+[*]nsc2noeco_advanced_military_program_enabled
+[*]nsc2noeco_tile_blocker_cleaner_enabled
+[*]nsc2noeco_administration_office_enabled
+[*]nsc2noeco_synthetic_crystal_fabricator_enabled
+[*]nsc2noeco_synthetic_volatile_motes_fabricator_enabled
+[*]nsc2noeco_synthetic_gase_fabricator_enabled
+[*]nsc2noeco_orbital_assembly_enabled
+[*]nsc2noeco_chain_manufacturing_enabled
+[*]nsc2noeco_construction_planificator_enabled
+[*]nsc2noeco_financial_space_center_enabled
+[*]nsc2noeco_stasis_chambers_enabled
+[*]nsc2noeco_emergency_portal_enabled
+[*]nsc2noeco_stellar_housing_enabled
+[*]nsc2noeco_administration_computers_enabled
+[*]nsc2noeco_market_computers_enabled
+[*]nsc2noeco_research_computers_enabled
+[*]nsc2noeco_space_power_plant_enabled
+[*]nsc2noeco_asteroid_mining_enabled
+[*]nsc2noeco_orbital_lab_enabled
+[*]nsc2noeco_space_foundry_enabled
+[*]nsc2noeco_space_factory_enabled
+[*]nsc2noeco_security_branch_office_modifier_enabled[/list]
+
+Individual components can be restored or disabled by setting or removing specific global_flag, ie.
+[b]effect set_global_flag = nsc2noeco_stellar_housing_enabled[/b] or
+[b]effect remove_global_flag = nsc2noeco_stellar_housing_enabled[/b] (default)
+
+[url=https://github.com/OldEnt/stellaris-remove-nsc2-economy]Source available on GitHub[/url]
+
+[url=https://steamcommunity.com/workshop/filedetails/?id=2114691165]See my other mods?[/url]
+
+[url=https://steamcommunity.com/linkfilter/?url=https://discordapp.com/invite/CMjnnET][img]https://i.imgur.com/4Und3QN.png[/img][/url]
