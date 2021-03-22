@@ -1,0 +1,1 @@
+Stellaris mod removing NSC2 (New Ship Classes 2) elements which affect economy. Customisable by global_flags.

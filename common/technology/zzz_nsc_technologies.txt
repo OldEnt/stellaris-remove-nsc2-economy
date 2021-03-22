@@ -1,0 +1,114 @@
+# LIOS will duplicate.
+# ############################
+# ### MINING/POWER STATION ###
+# ############################
+# tech_mining_base = {
+# 	cost = @tier3cost2
+# 	area = engineering
+# 	tier = 3
+# 	is_rare = yes
+# 	category = { voidcraft }
+# 	prerequisites = { "tech_mineral_purification_1" }
+# 	weight = @tier3weight1
+# 	potential = {
+# 		has_global_flag = nsc2noeco_tech_mining_base_enabled
+# 	}
+	
+# 	prereqfor_desc = {
+# 		ship = {
+# 			title = "TECH_UNLOCK_MINING_BASE_CONSTRUCTION_TITLE"
+# 			desc = "TECH_UNLOCK_MINING_BASE_CONSTRUCTION_DESC"
+# 		}
+# 	}
+	
+# 	weight_modifier = {
+# 		modifier = {
+# 			factor = @ap_technological_ascendancy_rare_tech
+# 			has_ascension_perk = ap_technological_ascendancy
+# 		}
+# 		modifier = {
+# 			factor = @federation_perk_factor
+# 			has_federation = yes
+# 			federation = {
+# 				has_federation_perk = rare_tech_boost
+# 				any_member = { has_technology = tech_mining_base }
+# 			}
+# 		}
+# 	}
+	
+# 	ai_weight = { factor = 50 }
+# }
+
+# tech_power_station = {
+# 	cost = @tier3cost2
+# 	area = physics
+# 	tier = 3
+# 	is_rare = yes
+# 	category = { voidcraft }
+# 	prerequisites = { "tech_power_hub_1" }
+# 	weight = @tier3weight1
+# 	potential = {
+# 		has_global_flag = nsc2noeco_tech_power_station_enabled
+# 	}
+	
+# 	prereqfor_desc = {
+# 		ship = {
+# 			title = "TECH_UNLOCK_POWER_STATON_CONSTRUCTION_TITLE"
+# 			desc = "TECH_UNLOCK_POWER_STATON_CONSTRUCTION_DESC"
+# 		}
+# 	}
+	
+# 	weight_modifier = {
+# 		modifier = {
+# 			factor = @ap_technological_ascendancy_rare_tech
+# 			has_ascension_perk = ap_technological_ascendancy
+# 		}
+# 		modifier = {
+# 			factor = @federation_perk_factor
+# 			has_federation = yes
+# 			federation = {
+# 				has_federation_perk = rare_tech_boost
+# 				any_member = { has_technology = tech_power_station }
+# 			}
+# 		}
+# 	}
+	
+# 	ai_weight = { factor = 50 }
+# }
+
+# ##############
+# ### UPKEEP ###
+# ##############
+# tech_ship_upkeep_1 = {
+# 	cost = @tier4cost3
+# 	area = engineering
+# 	tier = 3
+# 	category = { voidcraft }
+# 	prerequisites = { "tech_Battlecruiser_1" }
+# 	weight = @tier4weight2
+# 	potential = {
+# 		has_global_flag = nsc2noeco_tech_ship_upkeep_1_enabled
+# 	}
+	
+# 	modifier = { ships_upkeep_mult = -0.20 }
+	
+# 	weight_modifier = {
+# 		modifier = {
+# 			factor = 1.25
+# 			research_leader = {
+# 				area = engineering
+# 				has_trait = "leader_trait_expertise_voidcraft"
+# 			}
+# 		}
+# 	}
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 1.25
+# 			research_leader = {
+# 				area = engineering
+# 				has_trait = "leader_trait_expertise_voidcraft"
+# 			}
+# 		}
+# 	}
+# }
