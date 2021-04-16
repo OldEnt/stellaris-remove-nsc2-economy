@@ -123,8 +123,7 @@ space_factory = {
 	potential = {
 		has_global_flag = nsc2noeco_space_factory_enabled
 		exists = owner 
-		owner = { has_technology = tech_luxuries_1 } 
-		owner = { is_gestalt = no } 
+		owner = { has_technology = tech_luxuries_1 }
 	}
 	ai_weight = {
 		weight = 50

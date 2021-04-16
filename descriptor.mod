@@ -4,5 +4,6 @@ tags={
 	"Balance"
 	"Fixes"
 }
-name="Remove NSC2 economy 2.8"
-supported_version="2.8.1"
+name="Remove NSC2 economy 3+"
+supported_version="3.*"
+remote_file_id="2432455691"

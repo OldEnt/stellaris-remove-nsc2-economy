@@ -1,5 +1,7 @@
 Removes elements of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=683230077]NSC2 (New Ship Classes 2)[/url] which affect economy.
 
+Stellaris 3+ and 2.8.1.
+
 Starbase effects, modules, and buildings which affect available jobs, production etc. have been disabled. This includes modules producing consumer goods and alloys without the need of pop jobs (!!!).
 
 Components of Exploration Cruiser which produce resources have production set to 0 (alloys (!!!), engineering, physics, society, minerals, energy).
